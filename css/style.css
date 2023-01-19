@@ -1,3 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
 
+@media (max-width: 420px) {
+  .container {
+    padding: 10px;
+    width: 100vw;
+    height: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  header .menu-mobile {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .menu-mobile h2 {
+    font-size: 40px;
+  }
+  header .menu-mobile img {
+    width: 40px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  main .main-image {
+    width: 100%;
+    height: 250px;
+    background-image: url("../../../assets/images/image-web-3-mobile.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  main .main-title {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+  main .description {
+    text-align: left;
+    color: #717283;
+  }
+  main .description button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 15px 35px;
+    letter-spacing: 5px;
+    background-color: #f15d51;
+    color: white;
+  }
+  aside {
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    background-color: #00001a;
+    color: white;
+    padding: 15px 20px;
+    grid-template-rows: 50px 100px 100px 100px;
+  }
+  aside .aside-title {
+    font-size: 20px;
+    color: orange;
+  }
+  aside .part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  aside .part h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  aside .part p {
+    font-size: 14px;
+    color: #a6a7ba;
+  }
+  aside .two {
+    border-top: 1px solid #8b8b9b;
+    border-bottom: 1px solid #8b8b9b;
+  }
+  img {
+    width: 30px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
