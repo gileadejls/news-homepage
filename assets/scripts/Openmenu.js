@@ -2,6 +2,7 @@ export function Openmenu(){
     const icon = document.querySelector(".icon-open")
     const close = document.querySelector(".icon-close")
     const mobile = document.querySelector(".mobile-itens")
+    const container = document.querySelector(".container")
 
     
     icon.addEventListener("click", (event)=>{
