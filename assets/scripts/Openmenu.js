@@ -3,11 +3,11 @@ export function Openmenu(){
     const close = document.querySelector(".icon-close")
     const mobile = document.querySelector(".mobile-itens")
 
-    console.log(icon)
     
     icon.addEventListener("click", (event)=>{
         mobile.style.display = "block"
-        mobile.style.right = "0px"
+        mobile.style.right = "0"
+        mobile.style.transition = "all 2s"
     })
 
     close.addEventListener("click", (event)=>{

@@ -22,22 +22,22 @@
             justify-content: space-between;
             align-items: center;
         }
-
-        .menu-mobile svg:nth-child(2){
-            background-color: red;
-            
-        }
-
-        
+       
         .mobile-itens{
             display: none;
             width: 250px;
             background-color: white;
             position: fixed;
-            right: -200px;
-            transition: 1s;
+            animation: anima .4s ease-in-out;
+            right: 0;
             height: 100vh;
             margin-top: -100px;
+
+
+            @keyframes anima{
+                from{right:-240px;}
+                to{right: 0;}
+            }
 
             .icon-close{
                 display: flex;
